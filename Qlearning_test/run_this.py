@@ -23,7 +23,7 @@ def update():
     print('game over')
     env.destroy()
 
-
+// main function test
 if __name__ == "__main__":
     env = Maze()
     RL = QLearningTable(actions=list(range(env.n_actions)))
